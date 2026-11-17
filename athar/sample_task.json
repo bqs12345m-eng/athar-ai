@@ -1,0 +1,29 @@
+
+{
+  "task_id": "DEMO-001",
+  "claim": "تم إنشاء ملف ترحيبي يحتوي على عبارة ATHAR AI",
+  "requirements": [
+    {
+      "requirement_id": "REQ-001",
+      "evidence_id": "EV-001",
+      "expected_contains": "ATHAR AI"
+    },
+    {
+      "requirement_id": "REQ-002",
+      "evidence_id": "EV-002",
+      "expected_contains": "version: 0.1.0"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "EV-001",
+      "source": "demo-text",
+      "content": "Welcome to ATHAR AI"
+    },
+    {
+      "evidence_id": "EV-002",
+      "source": "demo-text",
+      "content": "version: 0.1.0"
+    }
+  ]
+}
